@@ -1,0 +1,15 @@
+# Rails
+api/log/*
+api/tmp/*
+api/.env*
+api/config/master.key
+!api/log/.keep
+!api/tmp/.keep
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.env*
+
+# OS
+.DS_Store

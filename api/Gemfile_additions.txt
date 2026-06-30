@@ -1,0 +1,6 @@
+# Append to your generated Gemfile (rack-cors isn't included by default in --api mode in all versions; pg is)
+gem "rack-cors"
+
+group :development, :test do
+  gem "benchmark-ips"
+end
